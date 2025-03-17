@@ -1,11 +1,11 @@
-# Datapack skeleton
+# No canyons
 
-Lorem ipsum dolor sit amet
+This datapack changes the world generation so that canyons are no longer generated.
 
 ---
 
 # Features
-- Feature 1
+- Generate no canyons anymore
 
 ---
 
