@@ -1,6 +1,10 @@
 {
     "pack": {
+        "description": "No more Ravines – Disable Canyon Generation",
         "pack_format": 61,
-        "description": "No canyons"
+        "supported_formats": {
+            "min_inclusive": 41,
+            "max_inclusive": 61
+        }
     }
 }
