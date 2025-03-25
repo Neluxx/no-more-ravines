@@ -1,31 +1,26 @@
-# No canyons
+# No more ravines
 
-This datapack changes the world generation so that canyons are no longer generated.
+This datapack disables the generation of natural ravines (also known as canyons) in Minecraft worlds.
+It’s designed for players or server owners who want a cleaner terrain or wish to remove ravines for performance, aesthetic, or gameplay reasons.
 
 ---
 
 # Features
-- Generate no canyons anymore
+- Removes ravine generation in newly generated chunks
+- Does not interfere with other terrain features (caves, ores, structures, etc.)
+- Safe to use in existing worlds (only affects new chunks)
 
 ---
 
 # Installation
-- Download the datapack and resourcepack ZIP file.
-- Move the datapack into your world’s datapacks folder: ``.minecraft/saves/YOUR_WORLD/datapacks/``
-- Move the resourcepack into your resourcepacks folder and enable it: ``.minecraft/resourcepacks/``
-- Start your world & type: ``/reload``
-- (Optional) Verify it’s active: ``/datapack list``
+
+- Download the [datapack](https://github.com/Neluxx/no-more-ravines/releases/latest)
+- Move the datapack inside ``.minecraft/saves/<world>/datapacks`` ([How to find .minecraft?](https://minecraft.wiki/w/.minecraft#Locating))
+- Reload the world or run ``/reload``
 
 ---
 
 # Uninstalling
 
-To remove the datapack:
-
-- Delete the datapack inside your datapacks directory: ``.minecraft/saves/YOUR_WORLD/datapacks/``
-- Reload the world: ``/reload``
-
-To remove the resourcepack:
-
-- Disable the resourcepack.
-- Delete the resourcepack inside your resourcepacks directory: ``.minecraft/resourcepacks/``
+- Delete the datapack from ``.minecraft/saves/<world>/datapacks``
+- Note: This will not re-enable ravines in already generated terrain
