@@ -17,4 +17,5 @@ It’s designed for players or server owners who want a cleaner terrain or wish 
 ## Uninstalling
 
 - Delete the datapack from ``.minecraft/saves/<world>/datapacks``
-- Note: This will not re-enable ravines in already generated terrain
+
+> **_NOTE:_** This will not re-enable ravines in already generated terrain
