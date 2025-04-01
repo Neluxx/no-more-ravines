@@ -8,13 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- Add overlay to support versions down to datapack format 15
 
 ### Changed
 
 ### Removed
 
 ### Fixed
+
+## [v1.1.0](https://github.com/Neluxx/no-more-ravines/releases/tag/v1.1.0) - 2025-04-01
+
+### Added
+- Add overlay to support versions down to datapack format 15
 
 ## [v1.0.0](https://github.com/Neluxx/no-more-ravines/releases/tag/v1.0.0) - 2025-03-26
 
