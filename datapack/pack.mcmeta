@@ -3,15 +3,15 @@
         "description": "No more Ravines – Disable Canyon Generation",
         "pack_format": 71,
         "supported_formats": {
-            "min_inclusive": 41,
+            "min_inclusive": 15,
             "max_inclusive": 71
         }
     },
 	"overlays": {
 		"entries": [
 			{
-				"formats": {"min_inclusive": 15, "max_inclusive": 40},
-				"directory": "overlay_15"
+				"formats": {"min_inclusive": 41, "max_inclusive": 71},
+				"directory": "overlay_41"
 			}
 		]
 	}
