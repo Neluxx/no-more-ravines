@@ -3,9 +3,9 @@
 	"id": "no-more-ravines",
 	"version": "${version}",
 	"name": "No more ravines",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A minecraft fabric mod that disables natural ravine generation in the overworld.",
 	"authors": [
-		"Me!"
+		"Neluxx"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
