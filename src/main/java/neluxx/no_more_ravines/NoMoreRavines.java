@@ -27,7 +27,7 @@ public class NoMoreRavines implements ModInitializer {
 
         // Register the datapack
         ResourceManagerHelper.registerBuiltinResourcePack(
-                Identifier.of("minecraft", "datapack"),
+                Identifier.of(MOD_ID, "datapack"),
                 FabricLoader.getInstance().getModContainer(MOD_ID).orElseThrow(),
                 ResourcePackActivationType.ALWAYS_ENABLED
         );
