@@ -1,7 +1,8 @@
 # No more ravines
 
 This datapack disables the generation of natural ravines (also known as canyons) in Minecraft worlds.
-It’s designed for players or server owners who want a cleaner terrain or wish to remove ravines for performance, aesthetic, or gameplay reasons.
+
+It’s designed for players or server owners who want a cleaner terrain or wish to remove ravines for aesthetic or gameplay reasons.
 
 ## Features
 - Removes ravine generation in newly generated chunks
@@ -14,8 +15,7 @@ It’s designed for players or server owners who want a cleaner terrain or wish 
 - Move the datapack inside ``.minecraft/saves/<world>/datapacks`` ([How to find .minecraft?](https://minecraft.wiki/w/.minecraft#Locating))
 - Reload the world or run ``/reload``
 
-## Uninstalling
+## Support the Project
 
-- Delete the datapack from ``.minecraft/saves/<world>/datapacks``
-
-> **_NOTE:_** This will not re-enable ravines in already generated terrain
+If you enjoy this datapack and find it useful, please consider giving the repository a star and following me on GitHub.  
+This helps the project gain visibility and motivates further development and maintenance.
