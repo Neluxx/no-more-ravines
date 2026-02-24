@@ -1,0 +1,7 @@
+{
+    "name": "No More Ravines",
+    "output": "build",
+    "data_pack": {
+        "load": ["datapack"]
+    }
+}
