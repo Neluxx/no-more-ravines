@@ -1,7 +1,7 @@
 [project]
-name = "beet-datapack-template"
+name = "no-more-ravines"
 version = "0.1.0"
-description = "Add your description here"
+description = "A datapack that disables natural ravine generation in the overworld."
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
