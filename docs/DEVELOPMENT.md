@@ -68,7 +68,7 @@ beet cache --clear
 ├── docs/
 ├── src/
 │   ├── datapack/          # Datapack source files
-│   │   └── v1_21/         # Overlay for overwrites
+│   │   └── v1_20_5/       # Overlay for overwrites
 │   └── resourcepack/      # Resourcepack source files
 ├── build/                 # Build output (git-ignored)
 ├── beet.yml               # Beet project configuration
@@ -82,8 +82,7 @@ Pack format ranges are configured in `beet.yml`. The project currently targets:
 
 | Pack | Min format | Max format | Versions |
 |------|-----------|-----------|----------|
-| Data pack | 15 | 94 | 1.20 – 1.21.11 |
-| Resource pack | 15 | 75 | 1.20 – 1.21.11 |
+| Data pack | 10 | 94 | 1.19 – 1.21.11 |
 
 Overlays are picked up automatically from subdirectories within the load path. Format ranges for overlays are set explicitly in `beet.yml`.
 
