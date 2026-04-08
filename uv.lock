@@ -32,17 +32,6 @@ wheels = [
 ]
 
 [[package]]
-name = "beet-datapack-template"
-version = "0.1.0"
-source = { virtual = "." }
-dependencies = [
-    { name = "beet" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "beet", specifier = ">=0.114.1" }]
-
-[[package]]
 name = "click"
 version = "8.3.1"
 source = { registry = "https://pypi.org/simple" }
@@ -128,6 +117,17 @@ sdist = { url = "https://files.pythonhosted.org/packages/d7/2d/d5b3db07f73629838
 wheels = [
     { url = "https://files.pythonhosted.org/packages/1d/29/2cb2516761e2626240b38d8251793f7880890509383bab5d35c6e409cb2e/nbtlib-1.12.1-py3-none-any.whl", hash = "sha256:55e6811aa4e4bfe9000cbe026f1fe540ebc231c8a3f3558d7819c6c7274001c6", size = 28560, upload-time = "2021-08-30T21:03:13.639Z" },
 ]
+
+[[package]]
+name = "no-more-ravines"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "beet" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "beet", specifier = ">=0.114.1" }]
 
 [[package]]
 name = "numpy"
