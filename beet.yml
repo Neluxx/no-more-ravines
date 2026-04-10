@@ -2,17 +2,12 @@ name: No more Ravines
 version: 0.1.0
 
 pipeline:
-  - beet.contrib.render
   - src.plugins.no_more_ravines
 
 meta:
-  render:
-    data_pack:
-      - "**"
-  no_more_ravines:
-    base_version: "1.19"
-    overlay_versions:
-      v1_20_5: "1.20.5"
+  base_version: "1.19"
+  overlay_versions:
+    v1_20_5: "1.20.5"
 
 data_pack:
   load: src/datapack
