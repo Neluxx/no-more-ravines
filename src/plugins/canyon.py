@@ -3,6 +3,7 @@ from beet.contrib.vanilla import Vanilla
 from beet.contrib.worldgen import WorldgenConfiguredCarver
 
 CANYON = "minecraft:canyon"
+PROBABILITY = 0 # defaults to 0.01
 
 
 def beet_default(ctx: Context):
@@ -26,5 +27,5 @@ def get_source(vanilla: Vanilla, version: str):
 def apply_patch(pack: DataPack, source):
     patched = source[CANYON].copy()
     config = patched.data["config"]
-    config["probability"] = 0
+    config["probability"] = PROBABILITY
     pack[WorldgenConfiguredCarver][CANYON] = patched
