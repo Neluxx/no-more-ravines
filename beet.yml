@@ -2,7 +2,7 @@ name: No more Ravines
 version: 0.1.0
 
 pipeline:
-  - src.plugins.no_more_ravines
+  - src.plugins.canyon
 
 meta:
   base_version: "1.19"
