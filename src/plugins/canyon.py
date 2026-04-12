@@ -2,9 +2,6 @@ from beet import Context, DataPack
 from beet.contrib.vanilla import Vanilla
 from beet.contrib.worldgen import WorldgenConfiguredCarver
 
-CANYON = "minecraft:canyon"
-PROBABILITY = 0 # defaults to 0.01
-
 
 def beet_default(ctx: Context):
     source = get_source(ctx.inject(Vanilla), ctx.meta["base_version"])
@@ -21,9 +18,9 @@ def get_source(vanilla: Vanilla, version: str):
 
 
 def apply_patch(pack: DataPack, source):
-    patched = source[CANYON].copy()
+    patched = source["minecraft:canyon"].copy()
 
-    config = patched.data["config"]
-    config["probability"] = PROBABILITY
+    # The probability that each chunk attempts to generate carvers.
+    patched.data["config"]["probability"] = 0 # defaults to 0.01
 
-    pack[WorldgenConfiguredCarver][CANYON] = patched
+    pack[WorldgenConfiguredCarver]["minecraft:canyon"] = patched
