@@ -20,3 +20,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Security
 
 ### Dependencies
+
+## [v0.2.1](https://github.com/Neluxx/no-more-ravines/releases/tag/v0.2.1) - 2026-04-13
+
+### Changed
+- Set the probability that canyons will generate to zero
