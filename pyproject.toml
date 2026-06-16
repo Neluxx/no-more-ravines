@@ -1,6 +1,6 @@
 [project]
 name = "no-more-ravines"
-version = "1.0.0"
+version = "1.1.0"
 description = "A datapack that disables natural ravine generation in the overworld."
 readme = "README.md"
 requires-python = ">=3.14"
