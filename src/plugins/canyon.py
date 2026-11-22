@@ -1,10 +1,10 @@
 from beet import Context
 
-from beet_datapack_utils import CARVER, Targets, worldgen_config
+from beet_datapack_utils import CARVER, targets, worldgen_config
 
 
 def beet_default(ctx: Context):
-    for target in ctx.inject(Targets):
+    for target in targets(ctx):
         with target.patch(CARVER, "minecraft:canyon") as canyon:
             config = worldgen_config(canyon)
 
