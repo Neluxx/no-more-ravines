@@ -1,12 +1,10 @@
 from beet import Context
 
-from beet_datapack_utils import CARVER, targets, worldgen_config
+from beet_datapack_utils import CARVER, get_config, versioned_packs
 
 
 def beet_default(ctx: Context):
-    for target in targets(ctx):
-        with target.patch(CARVER, "minecraft:canyon") as canyon:
-            config = worldgen_config(canyon)
-
+    for pack in versioned_packs(ctx):
+        with pack.edit(CARVER, "minecraft:canyon") as canyon:
             # The probability that each chunk attempts to generate carvers.
-            config["probability"] = 0  # defaults to 0.01
+            get_config(canyon)["probability"] = 0  # defaults to 0.01
